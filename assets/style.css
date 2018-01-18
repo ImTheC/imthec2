@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-title {
+  font-size: 2.1rem;
+}
+
+.main-title {
+  font-size: 6rem;
+  color: white;
+  background-color: #4286f4;
+  border: 8px solid white;
+  font-family: 'Gochi Hand', cursive;
+}
+
+#head::before {
+  content: "";
+  background: url('./imthec_bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
