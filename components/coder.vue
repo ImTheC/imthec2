@@ -10,6 +10,24 @@ var ItcCoder = function() {
             </div>
             <div class="column is-12"></div>
             <div class="column is-one-third">
+              <a target="_blank" href="https://www.12thmanfoundation.com">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <div class="image">
+                      <img src="./assets/images/12thman.png" alt="12th Man Foundation Preview">
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="is-size-4 is-size-5-touch has-text-centered">
+                        12th Man Foundation
+                      </h2>
+                    <p class="is-size-8">Built using the Angular(2+) framework in Typescript \ Javascript (ES6). I was responsible for architecting, scoping, and coding the frontend and leading a small team of developers.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="column is-one-third">
               <a target="_blank" href="http://www.ArtistChrista.com">
                 <div class="card hoverable">
                   <div class="card-image">
