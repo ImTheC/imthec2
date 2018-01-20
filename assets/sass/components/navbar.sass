@@ -68,6 +68,20 @@ $navbar-divider-background-color: $border !default
         .navbar-link
           &::after
             border-color: $color-invert
+      .navbar-start,
+      .navbar-end
+        & > .navbar-item,
+        .navbar-link
+          color: $color-invert
+        & > a.navbar-item,
+        .navbar-link
+          &:hover,
+          &.is-active
+            background-color: darken($color, 5%)
+            color: $color-invert
+        .navbar-link
+          &::after
+            border-color: $color-invert
       +desktop
         .navbar-start,
         .navbar-end
@@ -98,14 +112,14 @@ $navbar-divider-background-color: $border !default
     min-height: $navbar-height
     width: 100%
   &.has-shadow
-    box-shadow: 0 2px 3px rgba($black, 0.1)
+    box-shadow: 0 1px 5px rgba($black, 0.4)
   &.is-fixed-bottom,
   &.is-fixed-top
     +navbar-fixed
   &.is-fixed-bottom
     bottom: 0
     &.has-shadow
-      box-shadow: 0 -2px 3px rgba($black, 0.1)
+      box-shadow: 0 -1px 5px rgba($black, 0.4)
   &.is-fixed-top
     top: 0
 
@@ -206,7 +220,6 @@ a.navbar-link
       align-items: center
       display: flex
   .navbar-menu
-    background-color: $navbar-background-color
     box-shadow: 0 8px 16px rgba($black, 0.1)
     padding: 0.5rem 0
     &.is-active

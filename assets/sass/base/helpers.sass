@@ -19,6 +19,34 @@
 .is-overlay
   +overlay
 
+// Divider
+
+=divider-size($target:'')
+  @each $size in $sizes
+    $i: index($sizes, $size)
+    .divider.is-size-#{$i}#{if($target == '', '', '-' + $target)}
+      margin-bottom: $size
+
++divider-size()
+
++mobile
+  +divider-size('mobile')
+
++tablet
+  +divider-size('tablet')
+
++touch
+  +divider-size('touch')
+
++desktop
+  +divider-size('desktop')
+
++widescreen
+  +divider-size('widescreen')
+
++fullhd
+  +divider-size('fullhd')
+
 // Typography
 
 =typography-size($target:'')
@@ -26,6 +54,8 @@
     $i: index($sizes, $size)
     .is-size-#{$i}#{if($target == '', '', '-' + $target)}
       font-size: $size !important
+    p.is-size
+      margin-bottom: $size !important
 
 +typography-size()
 
