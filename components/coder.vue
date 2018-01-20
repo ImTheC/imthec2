@@ -21,7 +21,7 @@ var ItcCoder = function() {
                     <h2 class="is-size-4 is-size-5-touch has-text-centered">
                         12th Man Foundation
                       </h2>
-                    <p class="is-size-8">Built using the Angular(2+) framework in Typescript \ Javascript (ES6). I was responsible for architecting, scoping, and coding the frontend and leading a small team of developers.</p>
+                    <p class="is-size-8">Built using the Angular(2+) framework in Typescript / Javascript (ES6). I was responsible for architecting, scoping, and coding the frontend and leading a small team of developers.</p>
                   </div>
                 </div>
               </a>
@@ -91,9 +91,27 @@ var ItcCoder = function() {
                   </div>
                   <div class="card-content">
                     <h2 class="is-size-4 is-size-5-touch has-text-centered">
-                        ImTheC
+                        GitHub
                       </h2>
                     <p class="is-size-8">Christopher Anderson's GitHub profile.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="column is-one-third">
+              <a target="_blank" href="https://www.linkedin.com/in/imthec/">
+                <div class="card hoverable">
+                  <div class="card-image">
+                    <div class="image">
+                      <img src="./assets/images/linkedin.png" alt="GitHub">
+                    </div>
+                  </div>
+                  <div class="card-content">
+                    <h2 class="is-size-4 is-size-5-touch has-text-centered">
+                        LinkedIn
+                      </h2>
+                    <p class="is-size-8">Christopher Anderson's LinkedIn profile.</p>
                   </div>
                 </div>
               </a>
